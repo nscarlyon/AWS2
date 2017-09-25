@@ -3,7 +3,6 @@ phases:
   build:
     commands:
       - dotnet restore
-      - dotnet publish AWSLambda1\AWSLambda1\bin\Debug\netcoreapp1.0\publish -c Release -o bin/Release/netcoreapp1.0/publish
+      - dotnet publish MyBirthYearLambdaFunction\myBirthYearLambdaFunction.sln
       - cd AWSLambda1\AWSLambda1\bin\Debug\netcoreapp1.0\publish
-      - zip ../../../../../../Artifacts/AWSLambda1.zip *
-      - cd ../../../../../..
+      - zip *
