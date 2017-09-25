@@ -7,4 +7,3 @@ phases:
       - cd AWSLambda1\AWSLambda1\bin\Debug\netcoreapp1.0\publish
       - zip ../../../../../../Artifacts/AWSLambda1.zip *
       - cd ../../../../../..
-  discard-paths: yes
